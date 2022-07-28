@@ -1,12 +1,13 @@
 import './App.scss';
 import Header from "./components/header/Header"
-import Main from "./components/main/Main"
+import Form from "./components/main/form/form"
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Form addItem={this.addItem} />
     </div>
   );
 }
