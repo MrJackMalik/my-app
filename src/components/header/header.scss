@@ -1,0 +1,21 @@
+header {
+  max-width: 100vw;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 1px rgb(209, 207, 207);
+  padding: 2.2rem 2rem;
+  input {
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+  }
+  input::placeholder {
+    padding-left: 0.5rem;
+  }
+  button {
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+  }
+}
